@@ -17,6 +17,9 @@ h3{
 	margin: 20px;
 	color: #fff;
 }
+ul{
+	height: 25vh;
+}
 
 footer{
 	background-color: rgba(10, 61, 98,1.0);
