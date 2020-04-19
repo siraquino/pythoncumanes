@@ -1,53 +1,100 @@
 *{
 	border-radius: 9px;
-
+	margin: 0px;
 }
 
-h1{
-	padding: 15px;
-	margin: 20px;
-	background-color: rgba(30, 55, 153,1.0);
-	color: #fff;
-	text-align: center;
-	border-radius: 9px;
-
-}
-li{
-	list-style-type: none;
-}
 
 h3{
 	background-color:rgba(106, 137, 204,1.0);
 	padding: 5px;
-	margin: 10px;
 	color: #fff;
 }
-ul{
-	height: auto;
+p {
+	margin: 10px;
+	text-align: center;
+	white-space:;
 }
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header {
+	padding: 15px;
+	margin: 20px;
+	height: 60px;
+	color: #fff;
+	text-align: center;
+	border-radius: 9px;
+	background-color: rgba(30, 55, 153,1.0);
+
+}
+.caja{
+	width: 50%;
+	height: auto;
+	padding: 15px;
+	margin: 20px;
+}
+
 .enunciado {
-	padding: 5px;
-	margin: 10px ;
+	margin: 10px;
 	background-color: #ecf0f6;
-	line-height: 0.1;
 }
 
 
 .solucion{
 	background-color: #c7d4e5;
-	padding: 5px;
-	margin: 10px;
+
 }
 .explico{
 	background-color: #ecf0f6;
-	padding: 5px;
-	margin: 10px;
 
 }
 
-footer{
+/*De https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .caja {
+  	/*background: red;           Para verificar que se activa */ 
+  	width: 50%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .caja {
+  	/*background: green; Para verificar que se activa*/
+    width: 50%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .caja {
+  	/*background: blue; Para verificar que se activa*/
+  	width: 60%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .caja {
+  	/*background: orange; Para verificar que se activa*/
+  	width: 75%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .caja {
+  	/*background: pink;Para verificar que se activa */
+  	width: 100%;
+  }
+}
+.footer{
 	background-color: rgba(10, 61, 98,1.0);
-	padding: 15px;
 	margin: 20px;
 	color: #cbd7d8;
 	height: 50vh;
