@@ -18,9 +18,11 @@ p {
 .container{
 	width: 100%;
 	max-width: 1024px;
+	min-width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .header {
 	padding: 15px;
 	margin: 20px;
@@ -32,17 +34,22 @@ p {
 
 }
 .caja{
-	width: 50%;
+	width: 75%;
+	min-width:360px;
 	height: auto;
 	padding: 15px;
-	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
 }
 
 .enunciado {
-	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #ecf0f6;
-}
 
+}
 
 .solucion{
 	background-color: #c7d4e5;
@@ -93,9 +100,10 @@ p {
   	width: 100%;
   }
 }
-.footer{
+footer{
 	background-color: rgba(10, 61, 98,1.0);
 	margin: 20px;
+	padding: 20PX;
 	color: #cbd7d8;
 	height: 50vh;
 }
