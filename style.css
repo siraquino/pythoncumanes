@@ -12,15 +12,15 @@ h3{
 p {
 	margin: 10px;
 	text-align: center;
-	white-space:;
 }
 
 .container{
-	width: 100%;
+	width: 80%;
 	max-width: 1024px;
 	min-width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	box-sizing: border-box;
 }
 
 .header {
@@ -34,19 +34,17 @@ p {
 
 }
 .caja{
-	width: 75%;
-	min-width:360px;
+	width: 100%;
+	min-width:50%;
 	height: auto;
-	padding: 15px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 5px;
 	margin-top: 10px;
+	box-sizing: border-box;
+
 
 }
 
 .enunciado {
-	margin-left: auto;
-	margin-right: auto;
 	background-color: #ecf0f6;
 
 }
@@ -61,19 +59,11 @@ p {
 }
 
 /*De https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints*/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .caja {
-  	/*background: red;           Para verificar que se activa */ 
-  	width: 50%;
-  }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .caja {
   	/*background: green; Para verificar que se activa*/
-    width: 50%;
 	}
 }
 
@@ -81,7 +71,6 @@ p {
 @media only screen and (min-width: 768px) {
   .caja {
   	/*background: blue; Para verificar que se activa*/
-  	width: 60%;
   }
 } 
 
@@ -89,7 +78,6 @@ p {
 @media only screen and (min-width: 992px) {
   .caja {
   	/*background: orange; Para verificar que se activa*/
-  	width: 75%;
   }
 } 
 
@@ -97,9 +85,9 @@ p {
 @media only screen and (min-width: 1200px) {
   .caja {
   	/*background: pink;Para verificar que se activa */
-  	width: 100%;
   }
 }
+
 footer{
 	background-color: rgba(10, 61, 98,1.0);
 	margin: 20px;
