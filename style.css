@@ -32,26 +32,18 @@ p {
 	margin:0 auto;
 	box-sizing: border-box;
 	overflow: hidden;
-
+}
+header {
+	background-color:rgba(30, 55, 153,1.0); 
+	margin: 20px 0;	
+	box-sizing: content-box;
 }
 
-.header {
-	margin: 20px;
-	padding: 10px;
-	height: 60px;
-	border-radius: 9px;
-	border-style: solid;
-	/*background-color: rgba(30, 55, 153,1.0);*/
-	background-color:rgba(30, 55, 153,1.0);
-	box-sizing: border-box;
-
-}
-
-.header h1{
+header h1{
 	color: #fff;
-	padding: 15px;
-	margin: 0px;
+	padding: 20px 0;
 	text-align: center;
+
 }
 .caja{
 	/*clear:both;*/
