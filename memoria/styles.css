@@ -55,3 +55,24 @@ body{
 .front-face{
     transform: rotateY(180deg);
 }
+/*De https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+    /*.example {background: red;}*/
+    .memory-card{
+        width: calc(25% - 10px);
+        height: calc(33.333% - 60px);
+    }
+} 
+
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) {
+   
+        /*background: green;*/
+        .memory-card{
+            width: calc(25% - 10px);
+            height: calc(33.333% - 60px);
+        }
+  }
+
