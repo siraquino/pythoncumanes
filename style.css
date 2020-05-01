@@ -46,6 +46,10 @@ header h1{
 	text-align: center;
 
 }
+a:link { font-weight: bold; text-decoration: none}
+a:visited { text-decoration: none}
+a:hover {  text-decoration: none}
+a:active { text-decoration: none}
 .caja{
 	/*clear:both;*/
 	width: 100%;

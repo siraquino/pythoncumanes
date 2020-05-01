@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a:link { font-weight: bold; color: #006600; text-decoration: none}
+        a:visited { font-weight: bold; color: #9900FF; text-decoration: none}
+        a:hover { font-weight: bold; color: #FF9966; text-decoration: none}
+        a:active { font-weight: bold; color: rgb(75, 31, 18); text-decoration: none}
 body{
     height: 100vh;
     display: flex;
@@ -10,6 +14,7 @@ body{
 }
 .reinicio{
     position: absolute;
+    z-index: 1;
 } 
 
 .reinicio h2:hover{
