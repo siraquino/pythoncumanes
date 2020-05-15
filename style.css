@@ -15,7 +15,8 @@ h3{
 
 
   border-left: 5px solid blue;
-  background-color: lightgrey;
+  border-style: double;
+  /*background-color: lightgrey;*/
   text-align: left;
   /*padding: 10px;*/
   box-sizing: border-box;
@@ -35,7 +36,7 @@ p {
 	overflow: hidden;
 }
 header {
-	background-color:rgba(30, 55, 153,1.0); 
+	background-color: rgba(41, 128, 185,1.0); 
 	margin: 20px 0;	
 	box-sizing: content-box;
 }
@@ -46,10 +47,15 @@ header h1{
 	text-align: center;
 
 }
+/*object{
+	display: block;
+	margin: auto;
+}*/
 a:link { font-weight: bold; text-decoration: none}
 a:visited { text-decoration: none}
 a:hover {  text-decoration: none}
 a:active { text-decoration: none}
+
 .caja{
 	/*clear:both;*/
 	width: 100%;
@@ -73,8 +79,8 @@ a:active { text-decoration: none}
 	box-sizing: border-box;
 }
 .main p{
-  border-left: 30px solid blue;
-  background-color: rgb(106, 137, 204);
+  border-left: 15px solid blue;
+  background-color: rgb(202, 211, 200);
   text-align: left;
   padding: 10px;
   box-sizing: border-box;
