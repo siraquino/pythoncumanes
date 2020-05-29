@@ -26,7 +26,15 @@ p {
 	padding: 2px;
 	text-align: center;
 }
-
+li{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 9px;
+	
+}
 .container{
 	width: 80%;
 	max-width: 1000px;
