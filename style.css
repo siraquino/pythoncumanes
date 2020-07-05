@@ -79,16 +79,16 @@ a:active { text-decoration: none}
 }
 
 .main{
-	background-color: #c7d4e5;
-	width: 70%;
+	background-color: #dee9f7;
+	width: 100%;
 	float:left;
 	padding: 10px;
 	margin: 10px 0;
 	box-sizing: border-box;
 }
 .main p{
-  border-left: 15px solid blue;
-  background-color: rgb(202, 211, 200);
+  border-left: 8px solid blue;
+  background-color: rgb(252, 253, 252);
   text-align: left;
   padding: 10px;
   box-sizing: border-box;
@@ -129,9 +129,9 @@ a:active { text-decoration: none}
   	.main{
     width: 100%;
 	}
-	.aside{
+	/* .aside{
 	width: 100%;
-	}
+	} */
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -141,10 +141,10 @@ a:active { text-decoration: none}
   	.main{
     width: 100%;
 	}
-	.aside{
+	/* .aside{
 	width: 100%;
-	}
-}
+	/* } */
+} 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -154,9 +154,9 @@ a:active { text-decoration: none}
     .main{
     width: 100%;
 	}
-	.aside{
+	/* .aside{
 	width: 100%;
-	}
+	} */
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -167,9 +167,9 @@ a:active { text-decoration: none}
   .main{
     width: 100%;
 	}
-	.aside{
+	/* .aside{
 	width: 100%;
-	}
+	} */
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -179,11 +179,11 @@ a:active { text-decoration: none}
   }*/
   	.main {
   	/*background: green;*/
-  	width: 70%;
+  	width: 100%;
 	}
-	.aside{
+	/* .aside{
 	width: 30%;
-	}
+	} */
 }
 
 footer{
