@@ -25,7 +25,7 @@ p {
 	text-align: center;
 }
 
-.blog li{
+.lista li{
 	/* display: block; */
 	display: inline-block;
 	padding: 2px;
@@ -34,7 +34,7 @@ p {
 	border-color: white;
 	border-radius: 0px; 
 }
-.blog li:hover{
+.lista li:hover{
 	background-color:rgb(238, 237, 237);
 }
 
@@ -125,77 +125,52 @@ a:active { text-decoration: none}
 .solucion{
 	background-color: #c7d4e5;
 	padding: 10px;
-
 }
 .explico{
 	background-color: #ecf0f6;
-
 }
-
 
 
 /*De https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 600px) {
-  /*.example {background: red;}*/
   	.main{
     width: 100%;
 	}
-	/* .aside{
-	width: 100%;
-	} */
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
- 
-  	/*background: green;*/
+
   	.main{
     width: 100%;
 	}
-	/* .aside{
-	width: 100%;
-	/* } */
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .caja {
-  	/*background: blue; */
   }
     .main{
     width: 100%;
 	}
-	/* .aside{
-	width: 100%;
-	} */
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .caja {
-  	/*background: orange; */
   }
   .main{
     width: 100%;
 	}
-	/* .aside{
-	width: 100%;
-	} */
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1000px) {
-/*  .caja {
-  	background: pink;
-  }*/
+
   	.main {
-  	/*background: green;*/
   	width: 100%;
 	}
-	/* .aside{
-	width: 30%;
-	} */
 }
 
 footer{
@@ -203,7 +178,6 @@ footer{
 	float: left;
 	box-sizing: border-box;
 	width: 100%;
-	/* background-color: rgba(10, 61, 98,1.0); */
 	margin: 20px;
 	padding: 20pX;
 	color: #cbd7d8;
